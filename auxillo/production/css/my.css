@@ -1,0 +1,15 @@
+body {
+    color: #2A3F54 !important;
+}
+
+.tile-stats .icon, .tile-stats h3, .nav-tabs>li.active>a {
+    color: #2A3F54 !important;
+}
+
+.nav-sm .left_col .site_title {
+    width: 150px;
+}
+
+ul.msg_list li:last-child{
+    padding: 5px !important;
+}
