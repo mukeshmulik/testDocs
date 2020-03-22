@@ -1,0 +1,114 @@
+<div class="row">
+   <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="x_panel">
+         <div class="x_content">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+               <div class="" role="tabpanel" data-example-id="togglable-tabs">
+                  <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                     <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Credit Memo Cost to Company FY Report</a>
+                     </li>
+                     <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Credit Memo Cost to Company Monthly Report</a>
+                     </li>
+                  </ul>
+                  <div id="myTabContent" class="tab-content">
+                     <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                           <div class="row">
+                              <div class="col-md-12" style="display: none;">
+                                 <div class="dt-buttons btn-group">
+                                    <a tabindex="0" class="btn btn-default buttons-copy buttons-html5" aria-controls="table1" href="#"><span>Copy</span></a>
+                                    <a tabindex="0" class="btn btn-default buttons-csv buttons-html5" aria-controls="table1" href="#"><span>CSV</span></a>
+                                    <a tabindex="0" class="btn btn-default buttons-print" aria-controls="table1" href="#"><span>Print</span></a></div>
+                              </div>
+                           <div class="col-md-12 table-responsive mt-2">
+                                    <p-table #allReqTbl class="requestTbl" [columns]="allreqColumns" 
+                                    [loading]="allreqloading" [value]="allreq" [scrollable]="true"
+                                    [style]="{width:'1985px'}" scrollHeight="300px" [paginator]="false"
+                                    [rows]="totalallreq" [totalRecords]="totalallreq" [responsive]="true">
+                                    <ng-template pTemplate="header" let-columns>
+                                       <tr>
+                                          <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+                                          {{col.header}}
+                                          <p-sortIcon [field]="col.field"></p-sortIcon>
+                                          </th>
+                                       </tr>
+                                       <tr>                                       
+                                          <th *ngFor="let col of columns">                                    
+                                          <input pInputText type="text" (input)="allReqTbl.filter($event.target.value, col.field, col.filterMatchMode)">
+                                          </th>
+                                       </tr>
+                                    </ng-template>
+                                    <ng-template pTemplate="body" let-rowData let-columns="columns">
+                                       <tr>
+                                          <td *ngFor="let col of columns">
+                                             <span class="ui-column-title">{{col.field}}</span>
+                                             {{rowData[col.field]}}
+                                          </td>                
+                                       </tr>
+                                    </ng-template>
+                                    <ng-template pTemplate="emptymessage" let-columns>
+                                       <tr>
+                                          <td [attr.colspan]="columns.length">
+                                             <div class="emptyCard">
+                                                   <span><i class="fa fa-info-circle" style="font-size:40px"></i></span>
+                                                   <h3 class="mt-5">No Record Found !</h3>
+                                                </div>
+                                          </td>
+                                       </tr>
+                                    </ng-template>
+                                 </p-table>
+                                          
+                           </div>
+                        </div>
+                     </div>
+                     <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                           <div class="row">
+                                 <div class="col-md-12 table-responsive mt-2">
+                                       <p-table #pendingreqTbl class="requestTbl" [columns]="pendingreqColumns" 
+                                    [loading]="pendingreqloading" [value]="pendingreq" [scrollable]="true"
+                                    [style]="{width:'3515px'}" scrollHeight="300px" [paginator]="false"
+                                    [rows]="totalpendingreq" [totalRecords]="totalpendingreq" [responsive]="true">
+                                    <ng-template pTemplate="header" let-columns>
+                                       <tr>
+                                          <th *ngFor="let col of columns" [pSortableColumn]="col.field">
+                                          {{col.header}}
+                                          <p-sortIcon [field]="col.field"></p-sortIcon>
+                                          </th>
+                                       </tr>
+                                       <tr>                                       
+                                          <th *ngFor="let col of columns">                                    
+                                          <input pInputText type="text" (input)="pendingreqTbl.filter($event.target.value, col.field, col.filterMatchMode)">
+                                          </th>
+                                       </tr>
+                                    </ng-template>
+                                    <ng-template pTemplate="body" let-rowData let-columns="columns">
+                                       <tr>
+                                          <td *ngFor="let col of columns">
+                                             <span class="ui-column-title">{{col.field}}</span>
+                                             {{rowData[col.field]}}
+                                          </td>                
+                                       </tr>
+                                    </ng-template>
+                                    <ng-template pTemplate="emptymessage" let-columns>
+                                       <tr>
+                                          <td [attr.colspan]="columns.length">
+                                             <div class="emptyCard">
+                                                   <span><i class="fa fa-info-circle" style="font-size:40px"></i></span>
+                                                   <h3 class="mt-5">No Record Found !</h3>
+                                                </div>
+                                          </td>
+                                       </tr>
+                                    </ng-template>
+                                 </p-table>
+                                 </div>
+                              </div>
+                     </div>
+                     
+                  </div>
+                  
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+        

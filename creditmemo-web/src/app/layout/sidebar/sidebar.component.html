@@ -1,0 +1,75 @@
+
+<!-- <div class="col-md-3 col-sm-12 col-xs-12 left_col menu_fixed" *ngIf="ismenuOpen"> -->
+      <div class="col-md-3 col-sm-12 col-xs-12 left_col menu_fixed">
+    <div class="left_col scroll-view">
+       <div class="navbar nav_title" style="border: 0;">
+          <span class="image">
+            <a routerLink="/dashboard">
+                <img src="assets/images/ruskin-logo.png" alt="Profile Image" class="side-logo"/></a>
+            <a routerLink="/dashboard">
+                <img src="assets/images/ruskin-logo.png" alt="Profile Image" class="mob-logo"/></a>
+          </span>
+       </div>
+       <div class="clearfix"></div>
+       <!-- menu profile quick info -->
+       <div class="profile clearfix">
+          <div class="profile_pic">
+             <img src="assets/images/tim.png" alt="..." class="img-circle profile_img">
+          </div>
+          <div class="profile_info">
+             <span>Welcome,</span>
+             <h2>Timothy A Vogel</h2>
+             <span>Dir OEM</span>
+          </div>
+       </div>
+       <!-- /menu profile quick info -->
+       <!-- sidebar menu -->
+       <div id="sidebar-menu" class="main_menu_side hidden-print main_menu" >
+          <div class="menu_section">
+             <ul class="nav side-menu">
+                <li routerLinkActive="active"><a routerLink="/dashboard">
+                   <i class="fa fa-dashboard"></i> Dashboard </a>
+                </li>
+                <li routerLinkActive="active"><a routerLink="/usermanagement">
+                   <i class="fa fa-users"></i> Manage User </a>
+                </li>
+                <li routerLinkActive="active"><a routerLink="/newrequest">
+                   <i class="fa fa-bell"></i> New Request  </a>
+                </li>
+                <li routerLinkActive="active"><a routerLink="/approvalProcess">
+                   <i class="fa fa-book"></i> Credit Approval Process </a>
+                </li>
+                <!-- <li><a href="credit-req.html">
+                   <i class="fa fa-bell"></i>  Credit Approver Mapping </a>
+                </li> -->
+                <li routerLinkActive="active"><a routerLink="/trackrecord">
+                   <i class="fa fa-bookmark"></i> Credit Memo Tracking</a>
+                </li>
+                <li routerLinkActive="active"><a routerLink="/ctcreport">
+                   <i class="fa fa-certificate"></i> Credit Memo  CTC Report </a>
+                </li>
+                <li routerLinkActive="active"><a routerLink="/enggqualityreport">
+                   <i class="fa fa-file"></i> Engineering Quality Report </a>
+                </li>
+             </ul>
+          </div>
+       </div>
+       <!-- /sidebar menu -->
+       <!-- /menu footer buttons -->
+       <div class="sidebar-footer hidden-small">
+          <a data-toggle="tooltip" data-placement="top" title="Settings">
+          <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+          </a>
+          <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+          <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+          </a>
+          <a data-toggle="tooltip" data-placement="top" title="Lock">
+          <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+          </a>
+          <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+          <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+          </a>
+       </div>
+       <!-- /menu footer buttons -->
+    </div>
+ </div>

@@ -1,0 +1,43 @@
+<div class="modal fade" [ngClass]="{ 'in': approveModal }" [style.display]="approveModal ? 'block' : 'none'">
+        <div class="modal-dialog modal-md">
+           <div class="modal-content">
+              <div class="modal-header">
+                Approve User
+                 <button type="button" class="close" (click)="openApproveModal(false)">×</button>
+              </div>
+              <div class="modal-body">
+                    <div class="row">
+                       <div class="col-sm-6">
+                          <div class="mb-3">
+                             <label class="f-w-600">Department</label>
+                             <select class="form-control">
+                                <option value="">Select</option>
+                                <option value="Order Entry Team">Order Entry Team</option>
+                                <option value="Sales Team">Sales Team</option>
+                                <option value="Engineering Team">Engineering Team</option>
+                                <option value="Operation Team">Operation Team</option>
+                                <option value="Finance Team">Finance Team</option>
+                             </select>
+                          </div>
+                       </div>
+                       <div class="col-sm-6">
+                             <div class="mb-3">
+                                <label class="f-w-600">Credit Amount</label>
+                                <select class="form-control">
+                                      <option value="all" class="">select</option>
+                                      <option class="" value=""> Credit 0 - $100</option>
+                                      <option class="" value="">Credit > $2500</option>
+                                      <option class="" value="">Credit > $1500</option>
+                                      <option class="" value="">Credit > $5000</option>
+                                   </select>
+                             </div>
+                          </div>
+                    </div>
+                 </div>
+              <div class="text-right mb-3 mr-3">
+                 <button type="button" class="btn btn-sm btn-danger" (click)="openApproveModal(false)">Close</button>
+                 <button type="button" class="btn btn-sm btn-info" (click)="openApproveModal(false)">Submit</button>
+              </div>
+           </div>
+        </div>
+     </div>

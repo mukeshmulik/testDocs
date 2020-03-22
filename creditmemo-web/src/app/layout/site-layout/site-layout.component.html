@@ -1,0 +1,10 @@
+<div class="container body" [ngClass]="{ 'menuopen': isLeftMenu }">
+    <div class="main_container">
+        <app-sidebar [ismenuOpen]="isLeftMenu"></app-sidebar>
+        <app-header (showmenuEvent)="showMenu($event)"></app-header> 
+        <div class="right_col" role="main">
+            <router-outlet></router-outlet>            
+        </div>
+        <app-footer></app-footer>
+    </div>
+</div>

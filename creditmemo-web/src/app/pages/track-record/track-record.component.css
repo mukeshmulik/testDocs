@@ -1,0 +1,7 @@
+.box {
+    padding: 20px;
+    border: 1px solid #eee;
+    margin: 20px 0;
+    background: #fdfdfd;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.02);
+}

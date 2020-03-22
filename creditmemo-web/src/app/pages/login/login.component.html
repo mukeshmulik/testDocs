@@ -1,0 +1,154 @@
+
+<!-- Sidebar  -->
+<nav id="sidebar" [ngClass]="{ 'active': showVersion }">
+    <div id="dismiss" (click)="toggleDismiss()">
+        <i class="fa fa-arrow-left"></i>
+    </div>
+    <div class="sidebar-header">
+        <h5>Main Heading</h5>
+        <hr>
+        <div class="scrollbar" id="style-4" style="height: 550px;">
+            <div class="force-overflow">
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+                <p>Dummy Data</p>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- /Sidebar  -->
+<div class="row">
+    <div class="col-sm-6 col-md-6 col-xs-12">
+        <button type="button" id="sidebarCollapse" (click)="operateSideBar()" class="btn btn-login btn-xs color-white">
+        <i class="fa fa-align-left"></i>
+        <span>Release Notes</span>
+        </button>
+    </div>
+    <div class="col-sm-6 col-md-6 col-xs-12">
+        <div>
+            <!-- <a class="hiddenanchor" id="signup"></a>
+            <a class="hiddenanchor" id="signin"></a> -->
+            <div class="login_wrapper">
+                <div class="animate form login_form1" [hidden]="!hideLoginForm">
+                <section class="login_content">
+                    <div class="x_panel login-x-panel">
+                        <div class="text-right">
+                            <img src="assets/images/jci.png" style="width: 20%;">
+                        </div>
+                        <form>
+                            <h1>Credit Memo V.0</h1>
+                            <div  class="text-left">
+                            <label for="">Your Network Login</label>
+                            <input type="text" class="form-control" placeholder="Global ID" required="" />
+                            </div>
+                            <div  class="text-left">
+                            <label for="">Password</label>
+                            <input type="password" class="form-control" placeholder="Password" required="" />
+                            </div>
+                            <div class="text-left">
+                            <div id="Admin" class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default btn-xs active" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                <input type="radio" name="Admin" value="u"> &nbsp; Admin &nbsp;
+                                </label>
+                                <label class="btn btn-primary btn-xs" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default"
+                                style="    box-shadow: none;">
+                                <input type="radio" name="User" value="a"> &nbsp; Ruskin User &nbsp; 
+                                </label>
+                            </div>
+                            </div>                             
+                            <div>
+                            <a class="btn btn-theme submit text-white" routerLink="/dashboard">Log in</a>
+                            <a class="btn btn-default submit" href="#">Cancel</a>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="separator">
+                            <p class="change_link">New to site?
+                                <a (click)="toggleLogin()" class="to_register cursor-pointer"> Access Request </a>
+                            </p>
+                            <div class="clearfix"></div>
+                            <br />
+                            <div>
+                                <img src="assets/images/ruskin-logo.png" style="width: 50%;" class="mb-10">
+                                <p>Site best viewed in Google Chrome at 1600 x 900 pixels resolution and above.</p>
+                                <p>© 2019 Johnson Controls. All Right Reserved</p>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+                </div>
+                <div id="" class="animate form registration_form1" [hidden]="hideLoginForm">
+                    <section class="login_content">
+                        <div class="x_panel">
+                            <div class="text-right">
+                                <img src="assets/images/jci.png" style="width: 20%;">
+                            </div>
+                            <form>
+                                <h1>Send Request</h1>
+                                <div  class="text-left">
+                                <label for="">Your Network Login</label>
+                                <input type="text" class="form-control" placeholder="Global ID" required="" />
+                                </div>
+                                <div class="text-left">
+                                <label for="">Department</label>
+                                <select class="form-control">
+                                    <option value="">Select Department</option>
+                                    <option value="Order Entry Team">Order Entry Team</option>
+                                    <option value="Sales Team">Sales Team</option>
+                                    <option value="Engineering Team">Engineering Team</option>
+                                    <option value="Operation Team">Operation Team</option>
+                                    <option value="Finance Team">Finance Team</option>
+                                </select>
+                                </div>
+                                <div  class="text-left">
+                                <label for="">Notes</label>
+                                <textarea id="message" required="required" class="form-control" name="message" data-parsley-trigger="keyup" data-parsley-minlength="20" data-parsley-maxlength="100" data-parsley-minlength-message="Come on! You need to enter at least a 20 caracters long comment.."
+                                    data-parsley-validation-threshold="10"></textarea>
+                                </div>
+                                <div>
+                                <a class="btn btn-theme submit text-white" href="index.html">Submit</a>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="separator">
+                                <p class="change_link">Already a member ?
+                                    <a (click)="toggleLogin()" class="to_register cursor-pointer"> Log in </a>
+                                </p>
+                                <div class="clearfix"></div>
+                                <br />
+                                <div>
+                                    <img src="assets/images/ruskin-logo.png" style="width: 50%;" class="mb-10">
+                                    <p>Site best viewed in Google Chrome at 1600 x 900 pixels resolution and above.</p>
+                                    <p>© 2019 Johnson Controls. All Right Reserved</p>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" [ngClass]="{ 'active': showVersion }"></div>
+</div>
+
