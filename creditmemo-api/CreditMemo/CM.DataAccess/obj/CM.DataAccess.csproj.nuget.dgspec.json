@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccess\\CM.DataAccess.csproj": {}
+  },
+  "projects": {
+    "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\CM.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\CM.Contract.csproj",
+        "projectName": "CM.Contract",
+        "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\CM.Contract.csproj",
+        "packagesPath": "C:\\Users\\cmulikm\\.nuget\\packages\\",
+        "outputPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmulikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\LocalNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj": {
+                "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccess\\CM.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccess\\CM.DataAccess.csproj",
+        "projectName": "CM.DataAccess",
+        "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccess\\CM.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\cmulikm\\.nuget\\packages\\",
+        "outputPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmulikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\LocalNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\CM.Contract.csproj": {
+                "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.DataAccessContract\\CM.Contract.csproj"
+              },
+              "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj": {
+                "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Data": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj",
+        "projectName": "CM.Model",
+        "projectPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\CM.Model.csproj",
+        "packagesPath": "C:\\Users\\cmulikm\\.nuget\\packages\\",
+        "outputPath": "C:\\CreditMemo-Dev\\credit-memo\\creditmemo-api\\CreditMemo\\CM.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cmulikm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\LocalNuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\bin\Debug\netcoreapp2.2\CM.Contract.deps.json
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\bin\Debug\netcoreapp2.2\CM.Contract.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\bin\Debug\netcoreapp2.2\CM.Contract.pdb
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\bin\Debug\netcoreapp2.2\CM.Model.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\bin\Debug\netcoreapp2.2\CM.Model.pdb
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.csprojAssemblyReference.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.csproj.CoreCompileInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.AssemblyInfoInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.AssemblyInfo.cs
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.csproj.CopyComplete
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.DataAccessContract\obj\Debug\netcoreapp2.2\CM.Contract.pdb
