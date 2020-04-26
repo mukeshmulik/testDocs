@@ -1,0 +1,9 @@
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\bin\Debug\netcoreapp2.2\CM.Logger.deps.json
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\bin\Debug\netcoreapp2.2\CM.Logger.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\bin\Debug\netcoreapp2.2\CM.Logger.pdb
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.csprojAssemblyReference.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.csproj.CoreCompileInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.AssemblyInfoInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.AssemblyInfo.cs
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Logger\obj\Debug\netcoreapp2.2\CM.Logger.pdb

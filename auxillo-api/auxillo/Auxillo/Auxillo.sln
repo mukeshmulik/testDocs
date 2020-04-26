@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.API", "Auxillo.API\Auxillo.API.csproj", "{07186E16-8B60-4D1B-A313-2E97221205C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.Business", "Auxillo.Business\Auxillo.Business.csproj", "{602DB4ED-1E9A-476D-A18B-51C98F24F972}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.Common", "Auxillo.Common\Auxillo.Common.csproj", "{FC20A9D5-562C-4E0A-8A5B-C051DD85B10F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.DataAccess", "Auxillo.DataAccess\Auxillo.DataAccess.csproj", "{ABBCACA9-1153-430E-802F-1F60B2ED44A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.Model", "Auxillo.Model\Auxillo.Model.csproj", "{07E6C12B-49EB-4F6B-A653-F9F347D0713E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.Logger", "Auxillo.Logger\Auxillo.Logger.csproj", "{D72F10B2-D79B-47F7-BE5F-07D2619466AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auxillo.Contract", "Auxillo.Contract\Auxillo.Contract.csproj", "{726EA480-7E2A-4366-9C9C-2C3122D2F03F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07186E16-8B60-4D1B-A313-2E97221205C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07186E16-8B60-4D1B-A313-2E97221205C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07186E16-8B60-4D1B-A313-2E97221205C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07186E16-8B60-4D1B-A313-2E97221205C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602DB4ED-1E9A-476D-A18B-51C98F24F972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602DB4ED-1E9A-476D-A18B-51C98F24F972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602DB4ED-1E9A-476D-A18B-51C98F24F972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602DB4ED-1E9A-476D-A18B-51C98F24F972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC20A9D5-562C-4E0A-8A5B-C051DD85B10F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC20A9D5-562C-4E0A-8A5B-C051DD85B10F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC20A9D5-562C-4E0A-8A5B-C051DD85B10F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC20A9D5-562C-4E0A-8A5B-C051DD85B10F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBCACA9-1153-430E-802F-1F60B2ED44A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBCACA9-1153-430E-802F-1F60B2ED44A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBCACA9-1153-430E-802F-1F60B2ED44A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBCACA9-1153-430E-802F-1F60B2ED44A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07E6C12B-49EB-4F6B-A653-F9F347D0713E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07E6C12B-49EB-4F6B-A653-F9F347D0713E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07E6C12B-49EB-4F6B-A653-F9F347D0713E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07E6C12B-49EB-4F6B-A653-F9F347D0713E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72F10B2-D79B-47F7-BE5F-07D2619466AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72F10B2-D79B-47F7-BE5F-07D2619466AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72F10B2-D79B-47F7-BE5F-07D2619466AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72F10B2-D79B-47F7-BE5F-07D2619466AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726EA480-7E2A-4366-9C9C-2C3122D2F03F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726EA480-7E2A-4366-9C9C-2C3122D2F03F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726EA480-7E2A-4366-9C9C-2C3122D2F03F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726EA480-7E2A-4366-9C9C-2C3122D2F03F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65A7BA45-1D24-4782-842C-030B833A0A87}
+	EndGlobalSection
+EndGlobal

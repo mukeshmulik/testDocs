@@ -1,0 +1,12 @@
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\bin\Debug\netcoreapp2.2\Auxillo.Common.deps.json
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\bin\Debug\netcoreapp2.2\Auxillo.Common.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\bin\Debug\netcoreapp2.2\Auxillo.Common.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\bin\Debug\netcoreapp2.2\Auxillo.Model.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\bin\Debug\netcoreapp2.2\Auxillo.Model.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.csprojAssemblyReference.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.csproj.CoreCompileInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.AssemblyInfoInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.AssemblyInfo.cs
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.csproj.CopyComplete
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Common\obj\Debug\netcoreapp2.2\Auxillo.Common.pdb

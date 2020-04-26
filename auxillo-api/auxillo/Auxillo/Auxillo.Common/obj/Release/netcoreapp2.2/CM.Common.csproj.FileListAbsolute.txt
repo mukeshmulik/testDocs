@@ -1,0 +1,14 @@
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\CM.Common.deps.json
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\CM.Common.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\CM.Common.pdb
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\CM.Model.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\CM.Model.pdb
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\bin\Release\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.xml
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.csprojAssemblyReference.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.csproj.CoreCompileInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.AssemblyInfoInputs.cache
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.AssemblyInfo.cs
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.csproj.CopyComplete
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.dll
+C:\CreditMemo-Dev\credit-memo\creditmemo-api\CreditMemo\CM.Common\obj\Release\netcoreapp2.2\CM.Common.pdb

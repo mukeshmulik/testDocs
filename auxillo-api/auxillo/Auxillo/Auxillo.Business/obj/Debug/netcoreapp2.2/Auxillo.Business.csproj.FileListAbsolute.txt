@@ -1,0 +1,14 @@
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Business.deps.json
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Business.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Business.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Contract.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Model.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Contract.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\bin\Debug\netcoreapp2.2\Auxillo.Model.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.csprojAssemblyReference.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.csproj.CoreCompileInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.AssemblyInfoInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.AssemblyInfo.cs
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.csproj.CopyComplete
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Business\obj\Debug\netcoreapp2.2\Auxillo.Business.pdb

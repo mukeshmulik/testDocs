@@ -1,0 +1,9 @@
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\bin\Debug\netcoreapp2.2\Auxillo.Logger.deps.json
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\bin\Debug\netcoreapp2.2\Auxillo.Logger.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\bin\Debug\netcoreapp2.2\Auxillo.Logger.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.csproj.CoreCompileInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.AssemblyInfoInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.AssemblyInfo.cs
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Logger\obj\Debug\netcoreapp2.2\Auxillo.Logger.csprojAssemblyReference.cache

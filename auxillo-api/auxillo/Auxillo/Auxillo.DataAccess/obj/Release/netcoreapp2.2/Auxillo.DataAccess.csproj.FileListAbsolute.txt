@@ -1,0 +1,16 @@
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.DataAccess.deps.json
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.DataAccess.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.DataAccess.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Common.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Contract.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Model.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Common.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Contract.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\bin\Release\netcoreapp2.2\Auxillo.Model.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.csprojAssemblyReference.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.AssemblyInfoInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.AssemblyInfo.cs
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.csproj.CopyComplete
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.DataAccess\obj\Release\netcoreapp2.2\Auxillo.DataAccess.pdb

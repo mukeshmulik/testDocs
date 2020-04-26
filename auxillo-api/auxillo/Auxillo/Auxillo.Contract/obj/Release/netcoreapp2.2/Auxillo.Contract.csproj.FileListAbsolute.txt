@@ -1,0 +1,11 @@
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\bin\Release\netcoreapp2.2\Auxillo.Contract.deps.json
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\bin\Release\netcoreapp2.2\Auxillo.Contract.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\bin\Release\netcoreapp2.2\Auxillo.Contract.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\bin\Release\netcoreapp2.2\Auxillo.Model.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\bin\Release\netcoreapp2.2\Auxillo.Model.pdb
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.csproj.CoreCompileInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.AssemblyInfoInputs.cache
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.AssemblyInfo.cs
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.csproj.CopyComplete
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.dll
+C:\Mukesh\auxillo\Auxillo\Auxillo.Contract\obj\Release\netcoreapp2.2\Auxillo.Contract.pdb
