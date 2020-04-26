@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "CM.Business/1.0.0": {
+        "dependencies": {
+          "CM.Contract": "1.0.0"
+        },
+        "runtime": {
+          "CM.Business.dll": {}
+        }
+      },
+      "CM.Contract/1.0.0": {
+        "dependencies": {
+          "CM.Model": "1.0.0"
+        },
+        "runtime": {
+          "CM.Contract.dll": {}
+        }
+      },
+      "CM.Model/1.0.0": {
+        "runtime": {
+          "CM.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CM.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CM.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CM.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

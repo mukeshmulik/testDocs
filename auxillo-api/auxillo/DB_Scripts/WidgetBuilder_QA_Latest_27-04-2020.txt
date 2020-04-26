@@ -1,0 +1,218 @@
+CREATE DATABASE WidgetBuilder_QA;
+\l
+\c widgetbuilder_qa;
+
+CREATE TABLE fruits(id SERIAL PRIMARY KEY,name VARCHAR NOT NULL,CreatedOn timestamp);
+INSERT INTO fruits(name,CreatedOn) VALUES('Orange',NOW());
+SELECT * FROM fruits;
+
+
+CREATE TABLE WidgetTypeMaster
+(ID SERIAL PRIMARY KEY,
+WidgetName text,
+IsActive boolean,
+CreatedBy text,
+CreatedOn timestamp);
+
+
+CREATE TABLE PageMaster
+(ID SERIAL PRIMARY KEY,
+PageName text,
+PagePrintName text,
+IsActive boolean,
+CreatedBy text,
+CreatedOn timestamp);
+
+
+CREATE TABLE SectionMaster
+(ID SERIAL PRIMARY KEY,
+PageID smallint,
+SectionName text,
+SectionPrintName text,
+WidgetTypeID smallint,
+TabCount smallint,
+SectionSequence smallint,
+Refer_TableName text,
+UploadedFilePath text,
+IsActive boolean,
+CreatedBy text,
+CreatedOn timestamp);
+
+
+ALTER TABLE SectionMaster
+ADD CONSTRAINT FR_KEY_SectionMasterVSPageMaster
+FOREIGN KEY (PageID) REFERENCES PageMaster (ID);
+
+ALTER TABLE SectionMaster
+ADD CONSTRAINT FR_KEY_SectionMasterVSWidgetType
+FOREIGN KEY (WidgetTypeID) REFERENCES WidgetTypeMaster (ID);
+
+
+CREATE TABLE SectionVSTabWidgetFormat	
+(ID SERIAL PRIMARY KEY,
+SectionID smallint,
+WidgetTypeID smallint,
+DataFieldSequence smallint,
+TabName text,
+Refer_TableName text,
+UploadedFilePath text,
+IsActive boolean,
+CreatedBy text,
+CreatedOn timestamp);
+
+ALTER TABLE SectionVSTabWidgetFormat
+ADD CONSTRAINT FR_KEY_SectionVSTabWidgetFormatVSSectionMaster
+FOREIGN KEY (SectionID) REFERENCES SectionMaster(ID);
+
+ALTER TABLE SectionVSTabWidgetFormat
+ADD CONSTRAINT FR_KEY_SectionVSTabWidgetFormatVSWidgetType
+FOREIGN KEY (WidgetTypeID) REFERENCES WidgetTypeMaster (ID);
+
+
+CREATE TABLE SectionVSWidgetFormat	
+(ID SERIAL PRIMARY KEY,
+SectionID smallint,
+SectionVsTabWidgetID smallint,
+IsPlainTextColumn boolean,
+IsImageColumn boolean,
+DataFieldSequence smallint,
+IsActive boolean,
+CreatedBy text,
+CreatedOn timestamp);
+
+
+ALTER TABLE SectionVSWidgetFormat	
+ADD CONSTRAINT FR_KEY_SectionVSWidgetFormatVSSectionMaster
+FOREIGN KEY (SectionID) REFERENCES SectionMaster(ID);
+
+ALTER TABLE SectionVSWidgetFormat	
+ADD CONSTRAINT FR_KEY_SectionVSWidgetFormatVSSectionVsTabWidget
+FOREIGN KEY (SectionVsTabWidgetID) REFERENCES SectionVSTabWidgetFormat (ID);
+
+
+INSERT INTO widgetTypeMaster(widgetname,createdby,createdon)
+VALUES('LIST','jigar',NOW());
+
+INSERT INTO widgetTypeMaster(widgetname,createdby,createdon)
+VALUES('TAB','jigar',NOW());
+
+
+create function GetAllPageMaster()
+  returns setof pagemaster
+as
+$$
+
+select * 
+from pagemaster;
+
+$$
+language sql;
+
+
+
+create function GetAllWidgetTypeMaster()
+  returns setof widgettypemaster
+as
+$$
+
+select * 
+from widgettypemaster;
+
+$$
+language sql;
+
+
+CREATE OR REPLACE PROCEDURE InsertPageMaster(TEXT, TEXT,BOOLEAN, TEXT)
+LANGUAGE plpgsql    
+AS $$
+BEGIN
+
+	INSERT INTO pagemaster(PageName,PagePrintName,IsActive,CreatedOn,CreatedBy)
+	VALUES($1,$2,$3,NOW(),$4);
+
+	COMMIT;
+END;
+$$;
+
+
+CREATE OR REPLACE PROCEDURE UpdatePageMaster(INT,TEXT, TEXT,BOOLEAN, TEXT)
+LANGUAGE plpgsql    
+AS $$
+BEGIN
+
+	IF $1 > 0 
+	THEN
+		UPDATE pagemaster
+		SET PageName=$2,PagePrintName=$3,IsActive=$4,CreatedBy=$5
+		WHERE id=$1;
+	END IF;
+
+	COMMIT;
+END;
+$$;
+
+
+CREATE OR REPLACE PROCEDURE InsertSectionMaster(INT,TEXT, TEXT,INT,INT,INT,BOOLEAN, TEXT,TEXT,TEXT)
+LANGUAGE plpgsql    
+AS $$
+BEGIN
+
+	INSERT INTO SectionMaster(PageID,SectionName,SectionPrintName,WidgetTypeID,TabCount,SectionSequence,IsActive,CreatedOn,CreatedBy,Refer_TableName,UploadedFilePath)
+	VALUES($1,$2,$3,$4,$5,$6,$7,NOW(),$8,$9,$10);
+
+	COMMIT;
+END;
+$$;
+
+CREATE OR REPLACE PROCEDURE UpdateSectionMaster(INT,INT,TEXT, TEXT,INT,INT,INT,BOOLEAN, TEXT,TEXT,TEXT)
+LANGUAGE plpgsql    
+AS $$
+BEGIN
+
+	IF $1 > 0
+	THEN	
+		UPDATE SectionMaster
+		SET PageID=$2,SectionName=$3,SectionPrintName=$4,WidgetTypeID=$5,
+		TabCount=$6,SectionSequence=$7,IsActive=$8,CreatedBy=$9,Refer_TableName=$10,
+		UploadedFilePath=$11
+		WHERE ID=$1;
+	END IF;
+	COMMIT;
+END;
+$$;
+
+
+create function GetAllSectionMasterList()
+  returns setof SectionMaster
+as
+$$
+
+select * 
+from SectionMaster;
+
+$$
+language sql;
+
+
+create function GetAllSectionMasterListByPage(INT)
+  returns setof SectionMaster
+as
+$$
+
+SELECT * 
+FROM SectionMaster
+WHERE PageID=$1;
+
+$$
+language sql;
+
+
+
+
+
+INSERT INTO WidgetTypeMaster(widgetname,isactive,createdby,createdon)
+VALUES('List',true,'jigar',NOW());
+
+CALL InsertPageMaster('Employee Dashboard','Employee Dashboard',false,'jigar');
+CALL UpdatePageMaster(1,'Employee Dashboard','Employee Dashboard',true,'jigar');
+CALL Insertsectionmaster(1,'Recent Task','Recent Task',1,0,1,false,'jigar','test table name','test file path');
